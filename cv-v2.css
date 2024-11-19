@@ -189,6 +189,12 @@ textarea{
     padding: auto;
 }
 @media screen and (max-width:768px){
+     .text-center{
+        margin:0px;
+        margin-bottom: 50px;
+        padding: 0;
+        align-items: center;
+    }
     label,.name_phone{
         margin: 10px; 
     }
