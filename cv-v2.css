@@ -127,6 +127,11 @@ input{
     flex-direction: column;
     align-items: center;
 }
+.form-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .form-check-input:checked{
     background-color: #811458;
     border-color: #811458;
@@ -193,6 +198,10 @@ textarea{
     }
     .choice{
         justify-content: center;
+        align-items: center;
+    }
+    .form-check{
+        display: flex;
         align-items: center;
     }
     textarea{
