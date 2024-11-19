@@ -201,6 +201,7 @@ textarea{
     .name_phone,.mail{
         flex-direction: column;
         justify-content: space-between;
+        padding: 0px;
     }
     .choice{
         justify-content: center;
