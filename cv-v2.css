@@ -1,0 +1,249 @@
+body{
+    background-color: rgba(237, 203, 240, 0.337);
+    font-family: "DM Serif Text", serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg-body-tertiary{
+    background-color: rgb(200, 169, 230) !important;
+}
+.navbar-brand,.nav-link{
+    color: blueviolet !important;
+}
+.navbar-brand:hover,.nav-link:hover{
+    color: #811458 !important;
+    background-color: rgb(254, 232, 255);
+    transition: 0.4s;
+}
+.me{
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+}
+.card{
+   max-width: 540px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.button-contact{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 30px;
+}
+input[type="button"],input[type="submit"]{
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 3px 3px 2px rgba(101, 38, 133, 0.47);
+    border: 0;
+    border-radius: 25px;
+    font-size: 15px;
+   letter-spacing: 1.5px;
+   padding: 10px 20px;
+}
+input[type="button"]:hover,input[type="submit"]:hover{
+    letter-spacing: 3px;
+    background-color: #811458;
+}
+.presentation{
+    margin: 35px 0px 30px 0px;
+    text-align: center;
+    padding: 45px;
+    font-family: "DM Serif Text", serif;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+.container{
+    margin-bottom: 50px;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.title-study{
+    text-decoration: underline;
+}
+
+.title-contact,.title-study1,.title-skill{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+.title1{
+    text-decoration: underline;
+    padding-right: 10px;
+}
+.bi-list-stars,.bi-award-fill,.bi-backpack3-fill{
+    color: #811458;
+}
+.accordion{
+    padding: 10px;
+}
+.accordion-button{
+    background-color: #811458;
+    color: aliceblue;
+}
+.accordion-button:not(.collapsed){
+    background-color: #b66798;
+    color: white;
+}
+.accordion-item{
+    background-color:rgb(252, 204, 248) ;
+    text-align: center;
+}
+.progress{
+    background-color:rgb(200, 169, 230) ;
+}
+.progress-bar-animated{
+    background-color:blueviolet;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+label{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+input {
+    border-radius: 15px;
+    border: 0;
+    padding: 5px 5px;
+  }
+.name_phone,.mail{
+    display: flex;
+    justify-content: center;
+    padding: 10px ;
+    margin: 6px ;
+    align-items: center;
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-check-input:checked{
+    background-color: #811458;
+    border-color: #811458;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px ;
+}
+textarea{
+    width:400px;
+    height: 155px; 
+    resize: none;
+    border: 0;
+    border-radius:5px;
+    padding: 3px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.end{
+    background-color: rgb(200, 169, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.lien {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discord_icon img,.ifapme_icon img,.instagram_icon img ,.github_icon img{
+    width: 40px; 
+    box-shadow: 9px 8px 5px rgba(101, 38, 133, 0.3);
+    height:auto;
+    border-radius: 25px;
+    transition: transform 0.3s; 
+    margin: 24px; 
+}
+.instagram_icon img:hover ,.github_icon img:hover,.discord_icon img:hover,.ifapme_icon img:hover{
+    transform: scale(1.1); 
+}
+.name_end{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: blueviolet;
+}
+.end_lien{
+    display: flex;
+    padding: auto;
+}
+@media screen and (max-width:768px){
+    .card{
+        max-width: 300px;
+    }
+    .rounded-start{
+        border-bottom-left-radius: 0px !important;
+        border-top-left-radius: 0px !important;
+    }
+    label,.name_phone{
+        margin: 10px; 
+    }
+    .name_phone,.mail{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .choice{
+        justify-content: center;
+        align-items: center;
+    }
+    textarea{
+        width: 300px;
+        height: 150px;
+    } 
+    .form-check{
+        display: flex;
+        align-items: center;
+    }
+    .end{
+        justify-content: space-around;
+    }
+    .end_lien{
+        flex-direction: column;
+    }  
+}
+@media screen and (max-width:550px){
+    .card{
+        max-width: 250px;
+    }
+    .text_center{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .row_study{
+        margin-top: 10px;
+    }
+    .input_form{ 
+        width: 65%;
+      }
+}
